@@ -1,0 +1,19 @@
+{
+  "name": "fivem-refund-panel",
+  "version": "1.0.0",
+  "description": "Refund system for FiveM ESX",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "discord-oauth2": "^3.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express-session": "^1.17.3"
+  }
+}
